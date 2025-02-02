@@ -18,3 +18,55 @@ body{
     border-radius: 5px;
     box-shadow: 9px 9px 9px grey;
 }
+#result{
+    height: 100px;
+}
+#keyboard{
+    height: 420px;
+}
+.operator,.number,.empty{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 0;
+    background-color: azure;
+    border-radius: 50px;
+}
+button:nth-child(4){
+    background-color: blue;
+}
+button:nth-child(8) {
+    background-color: blueviolet;
+}
+button:nth-child(12) {
+    background-color: lawngreen;
+}
+button:nth-child(16) {
+    background-color: hotpink;
+}
+button:nth-child(20) {
+    background-color: khaki;
+}
+.operator:hover{
+    font-size: 30px;
+}
+.number:hover {
+    font-size: 30px;
+}
+.operator,.number{
+    cursor: pointer;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: grey;
+}
+#output{
+    text-align: right;
+    height:60px ;
+    margin:10 20px ;
+    font-size:30px ;
+}
